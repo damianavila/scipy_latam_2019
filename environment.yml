@@ -1,0 +1,7 @@
+name: talk-environment
+channels:
+  - conda-forge
+dependencies:
+  - rise
+  - ipywidgets
+  - matplotlib
