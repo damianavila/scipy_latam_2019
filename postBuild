@@ -1,0 +1,3 @@
+JUPYTER_CONFIG_DIR=$(jupyter --config-dir)
+mkdir $JUPYTER_CONFIG_DIR/custom
+cp rise.css $JUPYTER_CONFIG_DIR/custom/custom.css
